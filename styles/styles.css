@@ -165,15 +165,63 @@ header button:hover {
 .about {
     padding: 32px;
 }
-.about:hover{
+
+.about:hover {
     background-color: tan;
 }
-.abouts button , #btn-1:hover{
+
+.abouts button,
+#btn-1:hover {
     background-color: lightslategrey;
 }
-.abouts button , #btn-2:hover{
-    background-color:lightslategrey;
-}
-.abouts button , #btn-3:hover{
+
+.abouts button,
+#btn-2:hover {
     background-color: lightslategrey;
+}
+
+.abouts button,
+#btn-3:hover {
+    background-color: lightslategrey;
+}
+
+/* quate styles */
+.quote-main {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 32px;
+    padding: 48px 24px 48px 24px;
+}
+
+.quate-pic {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    flex:none;
+    
+}
+
+.quate-description {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 24px 0px;
+}
+
+.quate-titel {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin: 4px 0px;
+}
+
+.quate-sub-title {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 }
