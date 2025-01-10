@@ -298,3 +298,38 @@ header button:hover {
     margin-top: 45px;
     
 }
+/* news-2 style  */
+.news-container-2 {
+    display:flex;
+    margin-top: 32px;
+    padding: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.news-title-2 h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin: 12px 0px;
+}
+.news-date-2 {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.news-content-2 {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left; 
+}
+.news-1 button:hover{
+    background-color: darkgrey;
+}
+.news-2 button:hover{
+    background-color: darkgrey;
+}
