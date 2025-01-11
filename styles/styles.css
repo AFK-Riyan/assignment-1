@@ -46,6 +46,7 @@ main {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 
 .banner-title {
@@ -296,6 +297,7 @@ header button:hover {
     font-weight: 600;
     text-align: center;
     margin-top: 45px;
+    cursor: pointer;
 
 }
 
@@ -551,6 +553,7 @@ footer input[type="email"] {
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
     border: none;
+    cursor: pointer;
 }
 
 .end {
